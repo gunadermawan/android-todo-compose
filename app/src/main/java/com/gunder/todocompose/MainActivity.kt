@@ -13,6 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.gunder.todocompose.ui.theme.ToDoComposeTheme
 
 class MainActivity : ComponentActivity() {
+    val string = "android_with_jetpack_compose"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
